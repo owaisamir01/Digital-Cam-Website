@@ -1,0 +1,423 @@
+*{
+    padding: 0;
+    margin: 0;
+  font-family:'Times New Roman', Times, serif
+
+}
+.text-center{
+    text-align: center;
+    }
+    .my-1{
+        margin: 5px ;
+        color: white;
+    }
+body{
+display: flex;
+flex-direction: column;
+}
+header{
+    background-color:#121010;;
+     color: white;
+    display: flex; 
+    
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    header ul{
+        height: 58px;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        font-size: 22px;
+    }
+    .sociallink img{
+        width: 30px;
+        padding: 0 16px;
+    }
+    .logo{
+        font-size: 19px;
+        margin: 0 auto;
+        /* flex my margin left right sy auto dydo chezy khud baqi ki beacxh my ajygi
+         */
+         display: flex;
+         align-items: center;
+        }
+        nav ul li{
+            padding: 0 14px;
+        }
+        .main{
+            background-color:#181515;;
+        }
+        .container {
+         }
+        .slider{
+        display: flex;
+        justify-content: center;
+        margin: 9px;
+        }
+   .slider img{
+    width: 1290px;
+    height: 518px;
+    border-radius: 32px;
+   }
+   .pargraph{
+    color: white;
+    margin: 22px;
+   }
+   .head2{
+    color: white;
+    text-align: center;
+    margin: 45px;
+   }
+   .card{
+    border: rgb(111, 106, 106) 2px solid;
+    width: 94vw;
+    margin: 11px 24px;
+    border-radius: 30px;
+     
+ }
+   .carditem{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 11px 20px;
+    font-style: italic; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+   }
+   .carditem img{
+ height: 170px;
+ width: 170px;   
+}
+   .head2{
+    color: white;
+    margin: 7px 4px;
+
+   }
+   .h2{
+    margin: 30px;
+    margin-bottom: 2px;
+    color: white;
+   }
+   .mainheading h1{
+           color: white;
+           margin-top: 30px;
+            margin-left: 500px;
+   }
+   .pargraph2{
+    margin-top: 7px;
+    margin-left: 152px;
+    color: white;
+}
+   .p2{
+    margin-top: 5px;
+    margin-left: 239px;
+   }
+
+   .container2{
+
+    height: 35vw;
+    width: 86vw;
+    margin-top: 34px;
+    margin-left: 60px;
+    display: flex;
+   }
+   .box1{
+    border: 2px solid #605f5f;;
+    border-radius: 20%;
+    height: 30vw;
+    width: 22vw;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 39px;
+}
+
+.box1 img{
+    margin-top: 8px;
+    border-radius: 49%;
+}
+   .profile img{
+    height: 220px;
+    width: 250px;
+   }
+   .container3{
+/* border: 2px solid red; */
+    width: 93vw;
+    height: 48vw;
+    margin: 21px;
+    position: relative;
+    background-image: url(CS4.jpg);
+    background-size: cover;
+ border-radius: 76px;
+}
+
+.container3 {
+    width: 93vw;
+    height: 48vw;
+    display: flex;
+
+}
+   .boxfollow{
+    /* border: 2px solid red; */
+    height: 45vw;
+    width: 49vw;
+    margin: 14px;   
+}
+.boxfollow2{
+    /* border:2px solid yellow; */
+       height: 45vw;
+       width: 49vw;
+       margin: 12px;
+       margin-left: 5px;
+}
+.formheading{
+    color: rgb(4, 4, 4);
+    margin-top: 3px;
+    margin-left: 95px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.pfollow{
+    margin-left: -588px;
+}
+.boxfollow img{
+    height: 427px;
+    margin-top: 173px;
+    width: 655px;
+    border-radius: 47px;
+}
+.followform{
+    border-radius: 54px;
+    border: 2px solid #0c0c0c;
+    height: 438px;
+    width: 421px;
+    margin-top: 76px;
+    margin-left: 774px;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    background: transparent;
+    color: black;
+    border-color: black;
+    font-size: larger;
+    height: 106px;
+    width: 273px;
+    border-radius: 8px;
+    margin: 60px;
+}
+.gmail{
+    border-color: black;
+    color: BLACK;
+    background: transparent;
+    font-size: larger;
+    height: 106px;
+    width: 273px;
+    border-radius: 8px;
+    margin-left: 60px;
+
+}
+.submit{
+    margin: 77px;
+    color: black;
+    background-color: green;
+    font-size: larger;
+    height: 33px;
+    width: 242px;
+    border-radius: 60px;
+    
+}
+.container4{
+    /* border: 2px solid purple; */
+    height: 841px;
+    width: 95vw;
+    margin: 26px;
+}
+
+.addresshead{
+    font-size: 55px;
+    color: rgb(251, 244, 244);
+    margin-top: 20px;
+    margin-left: 44px;
+}
+
+.addressline{
+    margin-top: 24px;
+    margin-left: -676px;
+    color: white;
+    
+}
+.addressline p{
+
+    color: #b9bdd7;
+    margin-left: 693px;
+    margin-top: 10px;
+}
+.londonstore{            
+    border-radius: 20px 100px;
+    margin-top: 43px;
+    border: 2px solid #ffffff;
+    height: 191px;
+    width: 290px;
+    margin-left: 89px;
+}
+.londonstore p{
+color: #b9bdd7;
+padding: 2px;
+}
+
+.londonh{
+    color:white ;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+.londonp
+{
+    margin: 26px;
+}
+.container4body{
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    /* border: 2px solid red; */
+    height: 620px;
+    width: 490px;
+    margin-right: 85px;
+    margin-top: 22px;
+}
+.contacthead{
+    color:#b9bdd7;
+    margin-top: 16px;
+    margin-left: 99px;
+    font-size: 44px;
+}
+.contactform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.namec{
+    height: 50px;
+    width: 274px;
+    border-radius: 13px;
+    padding-left: 8px;
+    font-size: 23px;
+    border-color:white;
+    margin-top: 32px;
+    background: transparent;
+    color: white;
+}
+.phonec{
+    height: 50px;
+    width: 274px;
+    border-radius: 13px;
+    padding-left: 8px;
+    font-size: 23px;
+    border-color:white;
+    margin-top: 42px;
+    background: transparent;
+    color: white;
+}
+.gmailc{
+    height: 50px;
+    width: 274px;
+    border-radius: 13px;
+    padding-left: 8px;
+    font-size: 23px;
+    border-color:white;
+    margin-top: 42px;
+    background: transparent;
+    color: white;
+}
+.phonenumberc{
+    height: 50px;
+    width: 280px;
+    border-radius: 13px;
+    padding-left: 8px;
+    font-size: 23px;
+    border-color:white;
+    margin-top: 42px;
+    background: transparent;
+    color: white;
+}
+.addressc{
+    width: 289px;
+    height: 138px;
+    border-radius: 13px;
+    padding-left: 8px;
+    font-size: 23px;
+    border-color:white;
+    margin-top: 42px;
+    background: transparent;
+    color: white;
+    margin-left: 7px;
+}
+.submitc{
+     margin: 32px;
+     background-color: green;
+    font-size: larger;
+    height: 33px;
+    width: 242px;
+    border-radius: 60px;   
+    margin-left: 51px;
+}
+
+/* animation and transiction */
+.sociallink img{
+    animation: rotate 1s ease-in 1 2s;
+}
+@keyframes rotate{
+    0%{
+         transform: rotate(0deg);   
+    }
+    100%{
+     transform: rotate(360deg);
+    }
+    }
+
+    .card img:hover{
+        
+        animation: rotate 1s ease-in 1s ;
+    }
+    .box1 img:hover{
+        animation: profileimg 4s ease-in 1s;
+    }
+    .slider img{
+        animation: slideranimate 4s ease-in 1s ;
+    }
+
+    @keyframes slideranimate{
+        from{
+            width: 1290px;
+            height: 518px;
+        }
+        to{
+            height: 300px;
+            width: 600px;
+        }
+    }
+    
+    @keyframes profileimg {
+        from{
+            height: 220px;
+            width: 250px;
+        }
+        to{
+             height: 20px ;
+             width: 20px;
+        }
+    }
+   
+
+   footer{
+        font-size: 22px;
+        margin-top: -34px;
+        padding: 55px;
+        background-color: #121010;
+        text-align: center;
+        color: white;
+    }
